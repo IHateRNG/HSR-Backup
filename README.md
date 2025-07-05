@@ -2,30 +2,30 @@ HSR-Backup
 This was created just to ensure that the game content still exists. Created on 07/03/2025
 
 Project Milestones
-[ ] Astral Express Magazine ![50%](https://progress-bar.xyz/50)
+[ ] Astral Express Magazine ![](https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
-[ ] Character Wallpapers ![50%](https://progress-bar.xyz/50)
+[ ] Character Wallpapers ![](https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
-[ ] Enemy Dossier ![50%](https://progress-bar.xyz/50)
+[ ] Enemy Dossier ![](https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
-[ ] Gallery ![50%](https://progress-bar.xyz/50)
+[ ] Gallery ![](https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
-[ ] Intel ![50%](https://progress-bar.xyz/50)
+[ ] Intel ![](https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
-[ ] Light Cones Wallpapers ![50%](https://progress-bar.xyz/50)
+[ ] Light Cones Wallpapers ![](https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
-[ ] Phone Case ![50%](https://progress-bar.xyz/50)
+[ ] Phone Case ![](https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
-[X] Pom-Pom ![50%](https://progress-bar.xyz/50)
+[X] Pom-Pom ![](https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
-[ ] Powerful Enemy Dossier ![50%](https://progress-bar.xyz/50)
+[ ] Powerful Enemy Dossier ![](https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
-[ ] Stickers ![50%](https://progress-bar.xyz/50)
+[ ] Stickers ![](https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
-[ ] Trailblaze Index ![50%](https://progress-bar.xyz/50)
+[ ] Trailblaze Index ![](https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
-[ ] Travel Encounters ![50%](https://progress-bar.xyz/50)
+[ ] Travel Encounters ![](https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
-[ ] Traveler's Guilde ![50%](https://progress-bar.xyz/50)
+[ ] Traveler's Guilde ![](https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
-[ ] Version ![50%](https://progress-bar.xyz/50)
+[ ] Version ![](https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600)
