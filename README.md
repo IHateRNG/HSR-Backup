@@ -1,40 +1,31 @@
 HSR-Backup
 This was created just to ensure that the game content still exists. Created on 07/03/2025
 
-Project Progress
-Progress: ▓░░░░░░░░░ 0% (1/14 Milestones Completed)
-
-Explanation:
-
-▓ : Represents completed progress
-
-░ : Represents remaining progress
-
 Project Milestones
-[ ] Astral Express Magazine
+[ ] Astral Express Magazine https://progress-bar.xyz/100/?progress_color=ff3300
 
-[ ] Character Wallpapers
+[ ] Character Wallpapers https://progress-bar.xyz/100/?progress_color=ff3300
 
-[ ] Enemy Dossier
+[ ] Enemy Dossier https://progress-bar.xyz/100/?progress_color=ff3300 
 
-[ ] Gallery
+[ ] Gallery https://progress-bar.xyz/100/?progress_color=ff3300
 
-[ ] Intel
+[ ] Intel https://progress-bar.xyz/100/?progress_color=ff3300
 
-[ ] Light Cones Wallpapers
+[ ] Light Cones Wallpapers https://progress-bar.xyz/100/?progress_color=ff3300
 
-[ ] Phone Case
+[ ] Phone Case https://progress-bar.xyz/100/?progress_color=ff3300
 
-[X] Pom-Pom
+[X] Pom-Pom https://progress-bar.xyz/100/?progress_color=ff3300
 
-[ ] Powerful Enemy Dossier
+[ ] Powerful Enemy Dossier https://progress-bar.xyz/100/?progress_color=ff3300
 
-[ ] Stickers
+[ ] Stickers https://progress-bar.xyz/100/?progress_color=ff3300
 
-[ ] Trailblaze Index
+[ ] Trailblaze Index https://progress-bar.xyz/100/?progress_color=ff3300
 
-[ ] Travel Encounters
+[ ] Travel Encounters https://progress-bar.xyz/100/?progress_color=ff3300
 
-[ ] Traveler's Guilde
+[ ] Traveler's Guilde https://progress-bar.xyz/100/?progress_color=ff3300
 
-[ ] Version
+[ ] Version https://progress-bar.xyz/100/?progress_color=ff3300
