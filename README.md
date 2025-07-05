@@ -1,22 +1,40 @@
-# HSR-Backup
-
+HSR-Backup
 This was created just to ensure that the game content still exists. Created on 07/03/2025
 
-### Project Progress
+Project Progress
+Progress: ▓░░░░░░░░░ 0% (1/14 Milestones Completed)
 
-**Progress:** ▓▓▓▓▓▓▓▓▓░░░░░░░░░░ 50%
+Explanation:
 
-**Explanation:**
-* ▓ : Represents completed progress
-* ░ : Represents remaining progress
+▓ : Represents completed progress
 
-### Project Milestones
+░ : Represents remaining progress
 
-- [x] Task 1: Initialize project
-- [x] Task 2: Set up development environment
-- [x] Task 3: Develop core functionality
-- [ ] Task 4: Implement user interface
-- [ ] Task 5: Write unit tests
-- [ ] Task 6: Deploy to production
+Project Milestones
+[ ] Astral Express Magazine
 
-**Overall Progress: 3/6 tasks completed (50%)**
+[ ] Character Wallpapers
+
+[ ] Enemy Dossier
+
+[ ] Gallery
+
+[ ] Intel
+
+[ ] Light Cones Wallpapers
+
+[ ] Phone Case
+
+[X] Pom-Pom
+
+[ ] Powerful Enemy Dossier
+
+[ ] Stickers
+
+[ ] Trailblaze Index
+
+[ ] Travel Encounters
+
+[ ] Traveler's Guilde
+
+[ ] Version
