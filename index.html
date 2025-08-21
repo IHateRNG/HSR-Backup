@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .controls {
+            margin-bottom: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .controls div {
+            flex: 1;
+            min-width: 250px;
+        }
+        .controls label {
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .controls select {
+            padding: 8px 12px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            cursor: pointer;
+            width: calc(100% - 100px);
+        }
+        .curio-display {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .curio-display h2 {
+            color: #0056b3;
+            margin-top: 0;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .curio-display img {
+            max-width: 150px;
+            height: auto;
+            display: block;
+            margin-bottom: 15px;
+            border: 1px solid #eee;
+            border-radius: 4px;
+        }
+        .curio-display p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        .curio-display strong {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Curios</h1>
+
+        <div class="controls">
+            <div>
+                <label for="curioSelect">Curio:</label>
+                <select id="curioSelect">
+                    </select>
+            </div>
+            <div>
+                <label for="languageSelect"></label>
+                <select id="languageSelect">
+                    <option value="en">English</option>
+                    <option value="pt" selected>Português</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="curioDetails" class="curio-display">
+            <p></p>
+        </div>
+    </div>
+
+    <script>
+
+        const JSON_PATH = '/src/translations/simulated-universe-curio.json'; 
+        const IMAGE_BASE_PATH = 'pom-pom-gallery/simulated-universe/curios/'; 
+
+        let ALL_CURIO_DATA = null;
+
+        
+        const curioSelect = document.getElementById('curioSelect');
+        const languageSelect = document.getElementById('languageSelect');
+        const curioDetailsContainer = document.getElementById('curioDetails');
+
+        function populateCurioSelect() {
+            if (!curioSelect || !ALL_CURIO_DATA || !ALL_CURIO_DATA.curios) return;
+
+            curioSelect.innerHTML = '<option value="">-- Curio --</option>'; 
+
+            for (const curioId in ALL_CURIO_DATA.curios) {
+                if (ALL_CURIO_DATA.curios.hasOwnProperty(curioId)) {
+                    const curioData = ALL_CURIO_DATA.curios[curioId];
+                    const option = document.createElement('option');
+                    option.value = curioId;
+                    option.textContent = curioData.name.en;
+                    curioSelect.appendChild(option);
+                }
+            }
+        }
+
+        function displayCurioDetails() {
+            if (!curioSelect || !languageSelect || !curioDetailsContainer || !ALL_CURIO_DATA) return;
+
+            const selectedCurioId = curioSelect.value;
+            const selectedLang = languageSelect.value;
+
+            if (!selectedCurioId) {
+                curioDetailsContainer.innerHTML = '<p>Curio</p>';
+                return;
+            }
+
+            const curioData = ALL_CURIO_DATA.curios[selectedCurioId];
+            const commonLabels = ALL_CURIO_DATA.common_labels;
+
+            if (!curioData || !commonLabels) {
+                curioDetailsContainer.innerHTML = '<p style="color: red;">Dados do Curio ou rótulos comuns não encontrados para: ' + selectedCurioId + '</p>';
+                console.error("Dados do Curio ou rótulos comuns não encontrados para:", selectedCurioId);
+                return;
+            }
+
+            const effectLabel = commonLabels.effect_description_label[selectedLang] || commonLabels.effect_description_label.en || 'Effect Description:';
+            const loreLabel = commonLabels.lore_description_label[selectedLang] || commonLabels.lore_description_label.en || 'Lore (History):';
+            const flavorLabel = commonLabels.flavor_text_label[selectedLang] || commonLabels.flavor_text_label.en || 'Flavor Text:';
+
+            const name = curioData.name[selectedLang] || curioData.name.en || 'Nome Desconhecido';
+            const filename = curioData.filename || 'placeholder.webp'; 
+            const effectDescription = curioData.effect_description[selectedLang] || curioData.effect_description.en || 'Descrição de efeito não disponível.';
+            const loreDescription = curioData.lore_description[selectedLang] || curioData.lore_description.en || 'Lore não disponível.';
+            
+            const flavorTextHtml = curioData.flavor_text ? `
+                <h3>${flavorLabel}</h3>
+                <p>${curioData.flavor_text[selectedLang] || curioData.flavor_text.en || 'Flavor text não disponível.'}</p>
+            ` : '';
+
+            const curioHtml = `
+                <h2>${name}</h2>
+                <img src="${IMAGE_BASE_PATH}${filename}" alt="${curioData.name.en || 'Curio Image'}">
+                
+                <h3>${effectLabel}</h3>
+                <p>${effectDescription}</p>
+
+                <h3>${loreLabel}</h3>
+                <p>${loreDescription}</p>
+
+                ${flavorTextHtml}
+            `;
+            curioDetailsContainer.innerHTML = curioHtml;
+        }
+
+        async function loadAllCurioData() {
+            if (curioDetailsContainer) {
+                curioDetailsContainer.innerHTML = "<p>Carregando informações dos Curios...</p>";
+            }
+            try {
+                const response = await fetch(JSON_PATH);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status} for ${JSON_PATH}. Verifique o caminho e se o Live Server está ativo.`);
+                }
+                ALL_CURIO_DATA = await response.json();
+                console.log("JSON de Curios carregado com sucesso:", ALL_CURIO_DATA); 
+                
+                populateCurioSelect();
+                displayCurioDetails();
+
+            } catch (error) {
+                console.error("Erro ao carregar o JSON de Curios:", error);
+                if (curioDetailsContainer) {
+                    curioDetailsContainer.innerHTML = `<p style='color: red;'>Erro ao carregar as informações: ${error.message}. Verifique o caminho do JSON (${JSON_PATH}) e a aba Console/Rede (F12).</p>`;
+                }
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loadAllCurioData();
+
+            if (curioSelect) {
+                curioSelect.addEventListener('change', displayCurioDetails);
+            }
+            if (languageSelect) {
+                languageSelect.addEventListener('change', displayCurioDetails);
+            }
+        });
+    </script>
+</body>
+</html>

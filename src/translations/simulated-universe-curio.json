@@ -1,0 +1,68 @@
+{
+  "common_labels": {
+    "effect_description_label": {
+      "en": "Effect Description:",
+      "pt": "Descrição do Efeito:"
+    },
+    "lore_description_label": {
+      "en": "Lore (History):",
+      "pt": "Lore (História):"
+    },
+    "flavor_text_label": {
+      "en": "Flavor Text:",
+      "pt": "Flavor Text:"
+    }
+  },
+  
+  "curios": {
+    "kill_that_butterfly_curio": {
+      "filename": "kill-that-butterfly.webp",
+      "name": {
+        "en": "Kill That Butterfly",
+        "pt": "Mate Aquela Borboleta"
+      },
+      "effect_description": {
+        "en": "When choosing your Components after winning a battle, 1 extra Component can be chosen, but the number of available Components will be reduced by 1. This Curio will be destroyed once this effect has been triggered 2 time(s).",
+        "pt": "Ao escolher seus Componentes após vencer uma batalha, 1 Componente extra pode ser escolhido, mas o número de Componentes disponíveis será reduzido em 1. Esta Curio será destruído quando esse efeito for acionado 2 vez(es)."
+      },
+      "lore_description": {
+        "en": "The process of annihilating a chaotic system is like making a specimen. Pin the information on every particle on the board and still the wings, then bind the butterfly's path and make reality dance in the way you want it to. Any tiny change would instantly disintegrate the fragile balance. No matter how much the scholars continue to perfect the model, they could only consider the foolish act of unifying the pattern of movement as the hubris of mortals. Therefore, I still clearly remember the first day I killed the butterfly, even though it was so long ago. I remember how the point of the knife stabbed into its chest.",
+        "pt": "O processo de aniquilação de um sistema caótico é como fazer um espécime. Fixe as informações em cada partícula do tabuleiro e mantenha as asas, depois amarre o caminho da borboleta e faça a realidade dançar da maneira que você quiser. Qualquer pequena alteração desintegraria instantaneamente o frágil equilíbrio. Não importa o quanto os estudiosos continuem a aperfeiçoar o modelo, eles só poderiam considerar o ato tolo de unificar o padrão de movimento como a arrogância dos mortais. Portanto, ainda me lembro claramente do primeiro dia em que matei a borboleta, mesmo que tenha sido há muito tempo. Lembro-me de como a ponta da faca penetrou em seu peito."
+      }
+    },
+
+    "metallic_gear_ring": {
+      "filename": "metallic-gear-ring.webp",
+      "name": {
+        "en": "Kill That Butterfly",
+        "pt": "Anel de Engrenagem Metálica"
+      },
+      "effect_description": {
+        "en": "When obtaining this Curio, immediately obtain 1 \"SPD\" Scepter.",
+        "pt": "Ao adquirir esta Curio, obtém imediatamente 1 Cetro de \"VEL\""
+      },
+      "lore_description": {
+        "en": "Due to the influence of History Fictionologists, the end of #Rubert II has always remained enigmatic. Some references wrote that the second emperor's organic body ultimately hindered him from completing the empire's great work, as he died from illness on the cast-iron throne. Some poets warbled that a lady in a pastel-colored silk dress sauntered into the capital, and the empire collapsed in a cacophony. Other voices lamented that the metallic ring pricked his finger, and so the riotous machine killed the organic before him. Some plays also dramatized that he suddenly expressed his profound feelings and shed human tears as if he suddenly became free, then slowly closed his eyes before his subjects, never to open them again.",
+        "pt": "Devido à influência dos Ficciologistas da História, o fim de #Rubert II sempre permaneceu enigmático. Algumas referências escreveram que o corpo orgânico do segundo imperador acabou impedindo-o de concluir a grande obra do império, pois ele morreu de doença no trono de ferro fundido. Alguns poetas murmuraram que uma dama em um vestido de seda de cor pastel entrou na capital e o império entrou em colapso em uma cacofonia. Outras vozes lamentavam que o anel metálico picou seu dedo e, por isso, a máquina tumultuada matou o orgânico diante dele. Algumas peças também dramatizaram que ele subitamente expressou seus sentimentos profundos e derramou lágrimas humanas como se de repente tivesse se tornado livre, depois fechou lentamente os olhos diante de seus súditos, para nunca mais abri-los. Fixe as informações de cada partícula no quadro e mantenha as asas, depois amarre o caminho da borboleta e faça a realidade dançar da maneira que você quiser. Qualquer pequena mudança desintegraria instantaneamente o frágil equilíbrio. Não importa o quanto os estudiosos continuem a aperfeiçoar o modelo, eles só poderiam considerar o ato tolo de unificar o padrão de movimento como a arrogância dos mortais. Portanto, ainda me lembro claramente do primeiro dia em que matei a borboleta, mesmo que tenha sido há muito tempo. Lembro-me de como a ponta da faca penetrou em seu peito."
+      }
+    },
+
+     "name": {
+      "filename": "href.webp",
+      "name": {
+        "en": "",
+        "pt": ""
+      },
+      "effect_description": {
+        "en": "",
+        "pt": ""
+      },
+      "lore_description": {
+        "en": "",
+        "pt": ""
+      }
+    }
+  }
+
+
+}
