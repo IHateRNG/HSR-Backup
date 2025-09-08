@@ -1,0 +1,125 @@
+{
+  "titulo": "Noble Phantasm",
+  "Noble-Phantasm": {
+    "Gae-Bolg": {
+      "nome": "Gáe Bolg",
+      "TheHunt": "After an ally target uses an attack, deals 1 instance of True DMG equal to 50% of the original DMG to the attacked target.",
+      "TheHunt2": "Obtaining this Noble Phantasm again improves its effect: True DMG increases by 50%",
+      "Synthetic": "After an ally target uses an attack, deals 1 instance of True DMG equal to 20% of the original DMG to the attacked target.",
+      "Synthetic2": "Obtaining this Noble Phantasm again improves its effect: True DMG increases by 20%",
+      "Hollow": "After an ally target uses an attack, deals 1 instance of True DMG equal to 10% of the original DMG to the attacked target.",
+      "Hollow2": "Obtaining this Noble Phantasm again improves its effect: True DMG increases by 10%",
+      "item":"Gáe_Bolg.webp"
+    },
+    "Rho-Aias": {
+      "nome": "Rho Aias",
+      "TheHunt": "Gains 7 'Harmward' in every battle. Each stack of 'Harmward' reduces DMG taken by ally targets by 10%. Loses 1 stack of 'Harmward' Caladbolg II after being attacked by an Elite enemy.",
+      "TheHunt2": "Obtaining this Noble Phantasm again improves its effect: 'Harmward' stacks increase by 7",
+      "Synthetic": "Gains 5 'Harmward' in every battle. Each stack of 'Harmward' reduces DMG taken by ally targets by 10%. Loses 1 stack of 'Harmward' after being attacked by an Elite enemy.",
+      "Synthetic2": "Obtaining this Noble Phantasm again improves its effect: 'Harmward' stacks increase by 5",
+      "Hollow": "Gains 3 'Harmward' in every battle. Each stack of 'Harmward' reduces DMG taken by ally targets by 10%. Loses 1 stack of 'Harmward' after being attacked by an Elite enemy.",
+      "Hollow2": "Obtaining this Noble Phantasm again improves its effect: 'Harmward' stacks increase by 3",
+      "item":"Rho_Aias.webp"
+    },
+    "Caladbolg": {
+      "nome": "Caladbolg II: Fake Spiral Sword",
+      "TheHunt": "appears on the Action Order. When it takes action, receives help from Archer: Deals 20,000% base DMG to the enemy with the highest HP. If Archer is in the team, additionally causes him to immediately use his Skill, which does not consume Skill Points and its DMG dealt in this instance increases by 75%.",
+      "TheHunt2": "Obtaining this Noble Phantasm again improves its effect: Basic DMG increases by 20,000% and Skill DMG increases by 75%",
+      "Synthetic": "appears on the Action Order. When it takes action, receives help from Archer: Deals 8,000% base DMG to the enemy with the highest HP. If Archer is in the team, additionally causes him to immediately use his Skill, which does not consume Skill Points and its DMG dealt in this instance increases by 30%.",
+      "Synthetic2": "Obtaining this Noble Phantasm again improves its effect: Basic DMG increases by 8,000% and Skill DMG increases by 30%",
+      "Hollow": "appears on the Action Order. When it takes action, receives help from Archer: Deals 4,000% base DMG to the enemy with the highest HP. If Archer is in the team, additionally causes him to immediately use his Skill, which does not consume Skill Points and its DMG dealt in this instance increases by 15%.",
+      "Hollow2": "Obtaining this Noble Phantasm again improves its effect: Basic DMG increases by 4,000% and Skill DMG increases by 15%",
+      "item":"Caladbolg.webp"
+    },
+    "Kanshou": {
+      "nome": "Kanshou and Bakuya",
+      "TheHunt": "After the same ally character attacks twice in a row, receives help from Archer: Deals Quantum DMG equal to 100% of the DMG dealt by this attack to the enemy among the attacked targets with the highest HP.",
+      "TheHunt2": "Obtaining this Noble Phantasm again improves its effect: DMG increases by 100%",
+      "Synthetic": "After the same ally character attacks twice in a row, receives help from Archer: Deals Quantum DMG equal to 40% of the DMG dealt by this attack to the enemy among the attacked targets with the highest HP.",
+      "Synthetic2": "Obtaining this Noble Phantasm again improves its effect: DMG increases by 40%",
+      "Hollow": "After the same ally character attacks twice in a row, receives help from Archer: Deals Quantum DMG equal to 20% of the DMG dealt by this attack to the enemy among the attacked targets with the highest HP.",
+      "Hollow2": "Obtaining this Noble Phantasm again improves its effect: DMG increases by 20%",
+      "item":"Kanshou.webp"
+    },
+    "Zelretch": {
+      "nome": "Zelretch",
+      "TheHunt": "After an ally target uses an attack, deals True DMG equal to 15% of the original DMG to the attacked target and adjacent targets. When the current number of ally targets on the field is 1, the True DMG dealt increases to 150%.",
+      "TheHunt2": "Obtaining this Mystic Code again improves its effect: True DMG increases by 15%, True DMG increases by 150%.",
+      "Synthetic": "After an ally target uses an attack, deals True DMG equal to 6% of the original DMG to the attacked target and adjacent targets. When the current number of ally targets on the field is 1, the True DMG dealt increases to 60%.",
+      "Synthetic2": "Obtaining this Mystic Code again improves its effect: True DMG increases by 6%, True DMG increases by 60%.",
+      "Hollow": "After an ally target uses an attack, deals True DMG equal to 3% of the original DMG to the attacked target and adjacent targets. When the current number of ally targets on the field is 1, the True DMG dealt increases to 30%.",
+      "Hollow2": "Obtaining this Mystic Code again improves its effect: True DMG increases by 3%, True DMG increases by 30%.",
+      "item":"Zelretch.webp"
+    },
+    "Azoth ": {
+      "nome": "Azoth Sword",
+      "TheHunt": "Permanently amplifies the effects of all Pieces by 40%, and increases the amplification effect of all Pieces to 1.2.",
+      "TheHunt2": "This Mystic Code can be obtained repeatedly and will take effect starting in the next battle.",
+      "Synthetic": "Permanently amplifies the effects of all Pieces by 20%.",
+      "Synthetic2": "This Mystic Code can be obtained repeatedly and will take effect starting in the next battle.",
+      "Hollow": "Permanently amplifies the effects of all Pieces by 10%.",
+      "Hollow2": "This Mystic Code can be obtained repeatedly and will take effect starting in the next battle.",
+      "item":"Azoth_Sword.webp"
+    },
+    "Rule-Breaker": {
+      "nome": "Rule Breaker",
+      "TheHunt": "Before a battle, randomly disables 3 of the opponent's golden affix(es).",
+      "TheHunt2": "This Noble Phantasm can be obtained repeatedly and will take effect starting in the next battle",
+      "Synthetic": "Before a battle, randomly disables 2 of the opponent's green/purple affix(es).",
+      "Synthetic2": "This Noble Phantasm can be obtained repeatedly and will take effect starting in the next battle.",
+      "Hollow": "Before a battle, randomly disables 2 of the opponent's gray affix(es).",
+      "Hollow2": "This Noble Phantasm can be obtained repeatedly and will take effect starting in the next battle.",
+      "item":"Rule_Breaker.webp"
+    },
+    "Enuma": {
+      "nome": "Enuma Elish",
+      "TheHunt": "After victory, deals 4,000 DMG to opponents.",
+      "TheHunt2": "A Noble Phantasm that cannot be materialized and can only be obtained through Bonds",
+      "Synthetic": "Sintético em Português",
+      "Synthetic2": "Sintético 2 em Português",
+      "Hollow": "Oco em Português",
+      "Hollow2": "Oco 2 em Português",
+      "item":"Enuma_Elish.webp"
+    },
+    "Pendant": {
+      "nome": "Rin's Pendant",
+      "TheHunt": "Increases Archer's Eidolon Resonance level by 3 and obtains the trial character Archer.",
+      "TheHunt2": "This Mystic Code can be obtained repeatedly and will take effect starting in the next battle.",
+      "Synthetic": "Increases Archer's Eidolon Resonance level by 2 and obtains the trial character Archer.",
+      "Synthetic2": "This Mystic Code can be obtained repeatedly and will take effect starting in the next battle.",
+      "Hollow": "Increases Archer's Eidolon Resonance level by 1 and obtains the trial character Archer.",
+      "Hollow2": "This Mystic Code can be obtained repeatedly and will take effect starting in the next battle.",
+      "item":"Rin_Pendant.webp"
+    },
+    "False-Attendant": {
+      "nome": "False Attendant's Writings",
+      "TheHunt": "Grants 5 more reset attempt(s) when choosing Command Spells. This Mystic Code disappears after choosing a Command Spell.",
+      "TheHunt2": "This Mystic Code can be obtained repeatedly.",
+      "Synthetic": "Grants 2 more reset attempt(s) when choosing Command Spells. This Mystic Code disappears after choosing a Command Spell.",
+      "Synthetic2": "This Mystic Code can be obtained repeatedly.",
+      "Hollow": "Grants 1 more reset attempt(s) when choosing Command Spells. This Mystic Code disappears after choosing a Command Spell.",
+      "Hollow2": "This Mystic Code can be obtained repeatedly.",
+      "item":"False_Attendant.webp"
+    },
+    "Avalon": {
+      "nome": "Avalon: Ever the Distant Utopia",
+      "TheHunt": "Increases Saber's Eidolon Resonance level by 3 and obtains the trial character Saber.",
+      "TheHunt2": "This Noble Phantasm can be obtained repeatedly and will take effect starting in the next battle.",
+      "Synthetic": "Increases Saber's Eidolon Resonance level by 2 and obtains the trial character Saber.",
+      "Synthetic2": "This Noble Phantasm can be obtained repeatedly and will take effect starting in the next battle.",
+      "Hollow": "Increases Saber's Eidolon Resonance level by 1 and obtains the trial character Saber.",
+      "Hollow2": "This Noble Phantasm can be obtained repeatedly and will take effect starting in the next battle.",
+      "item":"Avalon_Ever.webp"
+    },
+    "Caliburn": {
+      "nome": "Caliburn",
+      "TheHunt": "Caliburn appears on the Action Order. When it takes action, receives help from Saber: Deals 10,000% base DMG to all enemies. If Saber is in the team, additionally causes her to immediately use her Ultimate and deals 50% more DMG in this instance of DMG.",
+      "TheHunt2": "Obtaining this Noble Phantasm again improves its effect: Basic DMG increases by 10,000%, Ultimate DMG increases by 50%",
+      "Synthetic": "Caliburn appears on the Action Order. When it takes action, receives help from Saber: Deals 4,000% base DMG to all enemies. If Saber is in the team, additionally causes her to immediately use her Ultimate and deals 20% more DMG in this instance of DMG.",
+      "Synthetic2": "Obtaining this Noble Phantasm again improves its effect: Basic DMG increases by 4,000%, Ultimate DMG increases by 20%",
+      "Hollow": "Caliburn appears on the Action Order. When it takes action, receives help from Saber: Deals 2,000% base DMG to all enemies. If Saber is in the team, additionally causes her to immediately use her Ultimate and deals 10% more DMG in this instance of DMG.",
+      "Hollow2": "Obtaining this Noble Phantasm again improves its effect: Basic DMG increases by 2,000%, Ultimate DMG increases by 10%",
+      "item":"Caliburn.webp"
+    }
+  }
+}

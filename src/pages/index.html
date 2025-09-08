@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="page.title">HSR-BACKUP</title>
+  <link rel="stylesheet" href="/public/css/main.css">
+</head>
+<body>
+  <div id="header-container"></div>
+
+  <main>
+    <center>
+    <h1 data-i18n="welcome"></h1>
+    </center>
+
+  <div class="container-unificado">
+    <p data-i18n="thanksfor"></p>
+    <a href="https://github.com/fribbels"><img src="/pom-pom-gallery/assets/misc/logo.webp" width="50" height="50" alt="Logo da galeria Pom-pom"></a>
+  </div>
+  <br>
+  <div>
+    <p data-i18n="descricao"></p>
+    <p data-i18n="descricao1"></p>
+    <p data-i18n="descricao2"></p>
+  </div>
+
+
+  </main>
+
+  <div id="footer-container"></div>
+
+  <script>
+    // Função para carregar o HTML
+    async function includeHTML(url, elementId) {
+      try {
+        const response = await fetch(url);
+        const html = await response.text();
+        const element = document.getElementById(elementId);
+        if (element) {
+          element.innerHTML = html;
+        }
+      } catch (error) {
+        console.error('Erro ao carregar o arquivo:', error);
+      }
+    }
+
+    // Espera o carregamento do cabeçalho e rodapé
+    Promise.all([
+      includeHTML('../_includes/header.html', 'header-container'),
+      includeHTML('../_includes/footer.html', 'footer-container')
+    ]).then(() => {
+      // Carrega o script i18n APENAS DEPOIS que o HTML está na página
+      const script = document.createElement('script');
+      script.src = '/public/js/i18n.js';
+      document.body.appendChild(script);
+      const yearElement = document.getElementById('current-year');
+      if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+      }
+    });
+  </script>
+</body>
+</html>

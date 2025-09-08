@@ -1,0 +1,205 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Essencial: Garante que o body ocupe 100% da altura da viewport */
+}
+
+body {
+  display: flex; /* Transforma o body em um contêiner flexível */
+  flex-direction: column; /* Organiza os itens (header, main, footer) em uma coluna */
+}
+
+main {
+  flex-grow: 1; /* Faz com que o conteúdo principal "cresça" e ocupe todo o espaço disponível */
+}
+
+/* Estilos básicos para o cabeçalho */
+.main-header {
+  background-color: #222;
+  padding: 20px 0; /* 10px de preenchimento em cima/embaixo, e 0px nas laterais */
+  color: #fff;
+  font-family: sans-serif;
+  width: 100%; /* Garante que o cabeçalho ocupe 100% da largura do contêiner pai */
+}
+
+/* Container de navegação - alinha os itens */
+.main-nav {
+  display: flex;
+  align-items: center; 
+}
+
+/* Estilos do menu principal */
+.main-menu {
+ list-style: none;
+  padding: 0;
+  margin: 5px;
+  display: flex;
+  justify-content: flex-start; /* Alinha os itens à esquerda */
+  align-items: center;
+  width: 100%; /* Isso garante que a lista ocupe 100% da largura do contêiner pai */
+}
+
+.main-menu li {
+  margin-right: 20px;
+}
+
+/* Remove a margem do último item para não ter espaço extra no final */
+.main-menu li:last-child {
+    margin-right: 0;
+}
+
+.main-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Estilos para o seletor de idiomas */
+.language-selector-container {
+  position: relative;
+}
+
+.language-button {
+  background: #222;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.language-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  min-width: 150px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 20;
+}
+
+.language-list li {
+  padding: 8px 12px;
+  cursor: pointer;
+  color: white;
+}
+
+.language-list li:hover {
+  background-color: #555;
+}
+
+/* Classe de utilidade para esconder a lista */
+.hidden {
+  display: none;
+}
+
+.language-selector-container:hover .language-list {
+  display: block;
+}
+
+
+/* Estilos para o menu suspenso */
+.dropdown-menu-container {
+  position: relative; /* Essencial para o posicionamento do menu */
+}
+
+.dropdown-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  min-width: 150px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 20;
+}
+
+/* Itens do menu suspenso */
+.dropdown-menu li a {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #555;
+}
+
+/* Esconde e mostra o menu */
+.dropdown-menu {
+  display: none;
+}
+
+/* Faz o menu aparecer ao passar o mouse */
+.dropdown-menu-container:hover .dropdown-menu {
+  display: block;
+}
+
+/* Estilos para o rodapé principal */
+.main-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Estilos para o container principal do conteúdo do rodapé */
+.footer-content {
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Alinha os itens verticalmente */
+  max-width: 1200px; /* Garante que o conteúdo não se espalhe demais em telas largas */
+  margin: 0 auto; /* Centraliza o contêiner na página */
+}
+
+/* Estilos para os links */
+.footer-links {
+  text-align: center; /* Centraliza o texto e a lista de links */
+}
+
+/* Estilos para a parte inferior do rodapé */
+.footer-bottom {
+  border-top: 1px solid #444; /* Adiciona uma linha divisória sutil */
+  margin-top: 15px;
+  padding-top: 15px;
+  text-align: center; /* Centraliza o texto de direitos autorais */
+}
+
+.main-footer {
+  text-align: center;
+}
+
+.footer-wrapper {
+  text-align: center;
+}
+
+
+.container-unificado {
+  /* Ativa o Flexbox no contêiner */
+  display: flex; 
+  
+  /* Alinha os itens verticalmente ao centro */
+  align-items: center; 
+  
+  /* Adiciona um espaço entre os itens */
+  gap: 20px; 
+}
+
+body {
+  background-color: black; /* ou #000000 */
+  color: white; /* Opcional: define a cor do texto para branco para que fique visível */
+}
+
+main {
+    padding: 10px;
+}
+.alert {
+  color: red; /* Ou use o código hexadecimal: #ff0000 */
+}
