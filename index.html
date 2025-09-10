@@ -71,25 +71,6 @@
 </footer>
 
   <script>
-    // Função para carregar o HTML
-    async function includeHTML(url, elementId) {
-      try {
-        const response = await fetch(url);
-        const html = await response.text();
-        const element = document.getElementById(elementId);
-        if (element) {
-          element.innerHTML = html;
-        }
-      } catch (error) {
-        console.error('Erro ao carregar o arquivo:', error);
-      }
-    }
-
-    // Espera o carregamento do cabeçalho e rodapé
-    Promise.all([
-      includeHTML('../_includes/header.html', 'header-container'),
-      includeHTML('../_includes/footer.html', 'footer-container')
-    ]).then(() => {
       // Carrega o script i18n APENAS DEPOIS que o HTML está na página
       const script = document.createElement('script');
       script.src = '/public/js/i18n.js';
@@ -98,7 +79,7 @@
       if (yearElement) {
         yearElement.textContent = new Date().getFullYear();
       }
-    });
+    ;
   </script>
 </body>
 </html>
