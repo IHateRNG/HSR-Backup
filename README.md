@@ -6,7 +6,7 @@
 
 <Center><h1>Progress Bars</h1></center>
 <p>Added characters: <progress value="0" max="82"></progress></p>
-<p>Light cone added: <progress value="100" max="100"></progress></p>
+<p>Light cone added: <progress value="0" max="147"></progress></p>
 <p>Books added: <progress value="0" max="100"></progress> I was too lazy to count how many there are. I think about 500.</p> 
 <p>Relics added: <progress value="0" max="50"></progress></p>
 <p>Inventory Items Added: <progress value="0" max="100"></progress> I was too lazy to count how many there are. I think about 1000. </p>
