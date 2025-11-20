@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria de Imagens</title>
+    <link rel="stylesheet" href="/public/css/main.css">
+</head>
+
+<body>
+    <div id="header-container"></div>
+
+    <h1>Seletor de Idioma</h1>
+    <select id="seletor-idioma" onchange="mudarIdioma(this.value)">
+        <option value="pt" selected>Português</option>
+        <option value="en">English</option>
+    </select>
+
+    <h2 id="titulo-principal"></h2>
+
+    <div id="lista-itens-container" class="grid-layout">
+    </div>
+
+    <div id="detalhes-item-container" class="painel-detalhes">
+        <h2>Selecione um Item</h2>
+    </div>
+
+    <img src="/pom-pom-gallery/assets/image/light_cone_portrait/23051.webp">
+
+
+
+    <div id="footer-container"></div>
+    <script src="/src/data/cones.json"></script>
+    <script src="/public/js/cones.js"></script>
+    <script>
+        // Função para carregar o HTML
+        async function includeHTML(url, elementId) {
+            try {
+                const response = await fetch(url);
+                const html = await response.text();
+                const element = document.getElementById(elementId);
+                if (element) {
+                    element.innerHTML = html;
+                }
+            } catch (error) {
+                console.error('Erro ao carregar o arquivo:', error);
+            }
+        }
+
+        // Espera o carregamento do cabeçalho e rodapé
+        Promise.all([
+            includeHTML('../_includes/header.html', 'header-container'),
+            includeHTML('../_includes/footer.html', 'footer-container')
+        ]).then(() => {
+            // Carrega o script i18n APENAS DEPOIS que o HTML está na página
+            const script = document.createElement('script');
+            script.src = '/public/js/i18n.js';
+            document.body.appendChild(script);
+            const yearElement = document.getElementById('current-year');
+            if (yearElement) {
+                yearElement.textContent = new Date().getFullYear();
+            }
+        });
+
+    </script>
+</body>
+
+</html>

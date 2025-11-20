@@ -1,0 +1,22 @@
+{
+  "ITENS": [
+    {
+      "id": "ITEM001_NOVA_ESCAMA",
+      "imagem_url": "/public/images/cones/nova_escama.png"
+    }
+  ],
+  
+  "TRADUCOES": {
+    "pt": {
+      "TITULO_NOVA_ESCAMA": "Nova Escama",
+      "DESC_A_CONTEXTO": "Nas terras antigas e ilimitadas, um jovem caminha sozinho em sua missão. [Texto de Contexto e Lore em PT]",
+      "DESC_B_EFEITO_BASE": "Esta é a descrição base dos efeitos do cone. Os valores variáveis serão injetados por outro script após a tradução." 
+    },
+    
+    "en": {
+      "TITULO_NOVA_ESCAMA": "New Scale",
+      "DESC_A_CONTEXTO": "In the ancient and boundless lands, a young man walks alone on his mission. [Context and Lore text in EN]",
+      "DESC_B_EFEITO_BASE": "This is a base effect description of the cone. Variable values will be injected by another script after translation."
+    }
+  }
+}
